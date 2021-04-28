@@ -1,0 +1,34 @@
+<div class=box>
+    <ul>
+        <li>
+            <b>Nombre Completo</b> 
+        </li>
+        <li *ngFor="let item of Lista">
+                {{item.nombre}} {{item.apellido}}
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <b>Género</b>   
+        </li>
+        <li *ngFor="let item of Lista">
+                {{item.genero}}
+        </li>
+    </ul>
+    <ul>
+        <li>
+           <b>Pais</b>
+        </li>
+        <li *ngFor="let item of Lista">
+                {{item.pais}}
+        </li>
+    </ul>
+    <ul>
+        <li>
+           <b>Ciudad</b>
+        </li>
+        <li *ngFor="let item of Lista">
+                {{item.ciudad}}
+        </li>
+    </ul>
+</div>

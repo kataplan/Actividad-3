@@ -1,0 +1,18 @@
+.wrapper{
+    filter: drop-shadow(4px 4px 4px #0a8f82)
+}
+.box{
+    display: flex;
+    align-items: center;
+    background-color: #20A4F3 ;
+    height: 7rem;
+    
+}
+img{
+    margin: 0 20px 0 20px;
+    height: 6rem;
+    clip-path: circle();
+}
+h1{
+    font-size: 3rem;
+}

@@ -1,0 +1,15 @@
+<div class='wrapper'>
+    <mat-card *ngFor="let item of Lista">
+        <img mat-card-avatar src="assets\img\{{item.genero}}.jpg" alt="">
+        <div class='nombre-ciudad'>
+            <mat-card-title>
+                {{item.nombre}} {{item.apellido}} 
+            </mat-card-title>
+            <mat-card-subtitle>
+                {{item.pais}}, {{item.ciudad}}
+            </mat-card-subtitle>
+        </div>
+    </mat-card>
+</div>
+
+ 

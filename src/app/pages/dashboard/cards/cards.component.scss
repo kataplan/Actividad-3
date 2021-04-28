@@ -1,0 +1,17 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 350px 350px;    
+}
+mat-card{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+}
+img{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}

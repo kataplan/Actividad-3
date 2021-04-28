@@ -1,0 +1,52 @@
+<div class= box>
+    <form [formGroup]="formulario" >
+        <ul>
+            <li>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Nombre</mat-label>
+                    <input matInput placeholder="Ejemplo: Pedro" formControlName="nombre" required>
+                    <div *ngIf="formulario.get('usuario')">Campo Obligatorio</div>
+                </mat-form-field>
+            </li> 
+            <li>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Apellido</mat-label>
+                    <input matInput placeholder="Ejemplo: Gonzales" formControlName="apellido" required>
+                </mat-form-field>
+            </li>
+            <li>
+                <span>Genero:</span>
+                <mat-radio-group color="primary" aria-label="Genero" formControlName="genero">
+                    <ul>
+                        <li><mat-radio-button  value="Mujer">Mujer</mat-radio-button></li>
+                        <li><mat-radio-button value="Hombre">Hombre</mat-radio-button></li>
+                        <li><mat-radio-button value="Otro">Otro</mat-radio-button></li>
+                    </ul>
+                </mat-radio-group>
+            </li>
+            <li>
+                <mat-form-field >
+                    <mat-label>País</mat-label>
+                    <select matNativeControl required formControlName="pais" required>
+                      <option value="Chile">Chile</option>
+                      <option value="Mexico">Mexico</option>
+                      <option value="Colombia">Colombia</option>
+                      <option value="Argentina">Argentina</option>
+                    </select>
+                  </mat-form-field>
+            </li>
+            <li>
+                <mat-form-field class="example-full-width" >
+                    <mat-label>Ciudad</mat-label>
+                    <input matInput placeholder="Ejemplo: Santiago" formControlName="ciudad" required>
+                </mat-form-field>
+            </li>
+        </ul>
+        <div class='buttons'>
+            <button mat-stroked-button color="warn" type="reset">Cancelar</button>
+            <button mat-raised-button  color="primary" type="submit" (click)=ValidarDatos() >Crear</button>
+        </div>   
+    </form>
+</div>
+
+
