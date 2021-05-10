@@ -1,0 +1,13 @@
+.box {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cfd9df), to(#e2ebf0));
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+button {
+  margin: 10px 10px 10px 10px;
+}
+
+button:hover {
+  color: #07f7d7;
+}
+/*# sourceMappingURL=nav.component.css.map */

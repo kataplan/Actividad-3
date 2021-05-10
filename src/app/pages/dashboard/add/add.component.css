@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+  padding: 4px 0px 0px 10px;
+}
+
+.box {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fafafa), to(#e2ebf0));
+  background-image: linear-gradient(to top, #fafafa 0%, #e2ebf0 100%);
+}
+
+.buttons {
+  margin: 0px 0px 0px 40px;
+}
+
+button {
+  margin: 10px 10px 10px 10px;
+}
+
+mat-form-field {
+  width: 30%;
+  min-width: 200px;
+}
+/*# sourceMappingURL=add.component.css.map */

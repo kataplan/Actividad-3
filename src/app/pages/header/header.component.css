@@ -1,0 +1,27 @@
+.wrapper {
+  -webkit-filter: drop-shadow(4px 4px 4px #0a8f82);
+          filter: drop-shadow(4px 4px 4px #0a8f82);
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #20A4F3;
+  height: 7rem;
+}
+
+img {
+  margin: 0 20px 0 20px;
+  height: 6rem;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+
+h1 {
+  font-size: 3rem;
+}
+/*# sourceMappingURL=header.component.css.map */

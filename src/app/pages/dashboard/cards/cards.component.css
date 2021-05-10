@@ -1,0 +1,26 @@
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 350px 350px;
+      grid-template-columns: 350px 350px;
+}
+
+mat-card {
+  border: 1px solid black;
+  width: 300px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 20px 20px 20px;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=cards.component.css.map */
